@@ -24,109 +24,179 @@
     }
 </style>
 
-<body>
-        <!--============= Header Section Starts Here =============-->
-        <header class="header-section text-white py-4 md:px-6 bg-transparent px-4 lg:px-20 fixed w-full">
-            <div class="container mx-auto">
-                <div class="flex justify-between w-full items-center relative">
-                    <div class="flex items-center">
-                        <div class="w-44 mr-5">
-                            <a href="index.html">
-                                <img src="assets/images/logo/logo.png" alt="logo">
-                            </a>
+<body class="text-violet-900 text-xl">
+    <!--============= Header Section Starts Here =============-->
+    <header class="header-section text-white py-4 md:px-6 bg-transparent px-4 lg:px-20 fixed w-full z-50">
+        <div class="container mx-auto">
+            <div class="flex justify-between w-full items-center relative">
+                <div class="flex items-center">
+                    <div class="w-44 mr-5">
+                        <a href="index.html">
+                            <img src="assets/images/logo/logo.png" alt="logo">
+                        </a>
+                    </div>
+                    <div class="pl-5 w-32 lg:w-40 text-xs md:text-lg font-semibold border-l border-violet-400">
+                        <a href="#0">Help Center</a>
+                    </div>
+                </div>
+                <ul id="menu" class="absolute lg:relative hidden lg:flex flex-col lg:flex-row mr-4 ml-auto w-full top-full  bg-violet-700 lg:bg-transparent  justify-end">
+                    <li class="relative group border-t lg:border-t-0 border-violet-400">
+                        <a href="#" class="dropDown flex lg:block justify-between lg:py-2 py-1.5 px-2.5 lg:px-5 font-medium text-lg capitalize focus:bg-white focus:text-violet-700">Home <i
+                                class="fa-solid fa-sort-down"></i></a>
+                        <ul
+                            class="submenu absolute hidden w-full z-10 px-3.5 lg:px-0 lg:w-52 bg-violet-700 shadow-lg h-0 group-hover:h-max group-hover:block  group-hover:transition-all group-hover:duration-1000 group-hover:ease-in-out">
+                            <li>
+                                <a class="flex py-2 px-4 text-base w-full text-white border-t border-violet-400 capitalize text-base hover:text-violet-700 hover:bg-white hover:pl-5 hover:transition-all hover:duration-700"
+                                    href="index.html">Home One</a>
+                            </li>
+                            <li>
+                                <a class="flex py-2 px-4 text-base w-full text-white border-t border-violet-400 capitalize text-base hover:text-violet-700 hover:bg-white hover:pl-5 hover:transition-all hover:duration-700"
+                                    href="index-2.html">Home Two</a>
+                            </li>
+                            <li>
+                                <a class="flex py-2 px-4 text-base w-full text-white border-t border-violet-400 capitalize text-base hover:text-violet-700 hover:bg-white hover:pl-5 hover:transition-all hover:duration-700"
+                                    href="index-3.html">Home Three</a>
+                            </li>
+                            <li>
+                                <a class="flex py-2 px-4 text-base w-full text-white border-t border-violet-400 capitalize text-base hover:text-violet-700 hover:bg-white hover:pl-5 hover:transition-all hover:duration-700"
+                                    href="index-4.html">Home Four</a>
+                            </li>
+                            <li>
+                                <a class="flex py-2 px-4 text-base w-full text-white border-t border-violet-400 capitalize text-base hover:text-violet-700 hover:bg-white hover:pl-5 hover:transition-all hover:duration-700"
+                                    href="index-5.html">Home Five</a>
+                            </li>
+                            <li>
+                                <a class="flex py-2 px-4 text-base w-full text-white border-t border-violet-400 capitalize text-base hover:text-violet-700 hover:bg-white hover:pl-5 hover:transition-all hover:duration-700"
+                                    href="index-6.html">Home Six</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="relative group border-t lg:border-t-0 border-violet-400">
+                        <a href="#0" class="dropDown flex lg:block justify-between lg:py-2 py-1.5 px-2.5 lg:px-5 font-medium text-lg capitalize focus:bg-white focus:text-violet-700">Changelog <i
+                                class="fa-solid fa-sort-down"></i></a>
+                        <ul
+                            class="submenu absolute hidden w-full z-10 px-3.5 lg:px-0 lg:w-52 bg-violet-700 shadow-lg h-0 group-hover:h-max group-hover:block  group-hover:transition-all group-hover:duration-1000 group-hover:ease-in-out">
+                            <li>
+                                <a class="flex py-2 px-4 text-base w-full text-white border-t border-violet-400 capitalize text-base hover:text-violet-700 hover:bg-white hover:pl-5 hover:transition-all hover:duration-700"
+                                    href="changelog.html">Changelog</a>
+                            </li>
+                            <li>
+                                <a class="flex py-2 px-4 text-base w-full text-white border-t border-violet-400 capitalize text-base hover:text-violet-700 hover:bg-white hover:pl-5 hover:transition-all hover:duration-700"
+                                    href="changelog-2.html">Changelog Single</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="relative group border-t lg:border-t-0 border-violet-400">
+                        <a href="#0" class="dropDown flex lg:block justify-between lg:py-2 py-1.5 px-2.5 lg:px-5 font-medium text-lg capitalize focus:bg-white focus:text-violet-700">Pages <i
+                                class="fa-solid fa-sort-down"></i></a>
+                        <ul
+                            class="submenu absolute hidden w-full z-10 px-3.5 lg:px-0 lg:w-52 bg-violet-700 shadow-lg h-0 group-hover:h-max group-hover:block  group-hover:transition-all group-hover:duration-1000 group-hover:ease-in-out">
+                            <li>
+                                <a class="flex py-2 px-4 text-base w-full text-white border-t border-violet-400 capitalize text-base hover:text-violet-700 hover:bg-white hover:pl-5 hover:transition-all hover:duration-700"
+                                    href="about.html">About</a>
+                            </li>
+                            <li>
+                                <a class="flex py-2 px-4 text-base w-full text-white border-t border-violet-400 capitalize text-base hover:text-violet-700 hover:bg-white hover:pl-5 hover:transition-all hover:duration-700"
+                                    href="category-1.html">Category</a>
+                            </li>
+                            <li>
+                                <a class="flex py-2 px-4 text-base w-full text-white border-t border-violet-400 capitalize text-base hover:text-violet-700 hover:bg-white hover:pl-5 hover:transition-all hover:duration-700"
+                                    href="category-2.html">Category Single</a>
+                            </li>
+                            <li>
+                                <a class="flex py-2 px-4 text-base w-full text-white border-t border-violet-400 capitalize text-base hover:text-violet-700 hover:bg-white hover:pl-5 hover:transition-all hover:duration-700"
+                                    href="knowledge-based.html">Knowledge Based</a>
+                            </li>
+                            <li>
+                                <a class="flex py-2 px-4 text-base w-full text-white border-t border-violet-400 capitalize text-base hover:text-violet-700 hover:bg-white hover:pl-5 hover:transition-all hover:duration-700"
+                                    href="knowledge-based-single.html">Knowledge Based Single</a>
+                            </li>
+                            <li>
+                                <a class="flex py-2 px-4 text-base w-full text-white border-t border-violet-400 capitalize text-base hover:text-violet-700 hover:bg-white hover:pl-5 hover:transition-all hover:duration-700"
+                                    href="faq.html">Faqs</a>
+                            </li>
+                            <li>
+                                <a class="flex py-2 px-4 text-base w-full text-white border-t border-violet-400 capitalize text-base hover:text-violet-700 hover:bg-white hover:pl-5 hover:transition-all hover:duration-700"
+                                    href="contact.html">Contact</a>
+                            </li>
+                            <li>
+                                <a class="flex py-2 px-4 text-base w-full text-white border-t border-violet-400 capitalize text-base hover:text-violet-700 hover:bg-white hover:pl-5 hover:transition-all hover:duration-700"
+                                    href="404.html">404 Error</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="border-t block md:hidden py-4 text-center border-t lg:border-t-0 border-violet-400">
+                        <a href="#0" class=" py-2.5 px-12 bg-white text-violet-700 text-lg font-semibold capitalize rounded-3xl">Submit a Request</a>
+                    </li>
+                </ul>
+                <div id="toggle-btn" class="flex lg:hidden text-2xl ml-auto mr-8">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="hidden md:flex lg:w-96 ml-8 py-2.5 lg:py-5 px-7 lg:px-9 bg-white text-violet-700 text-lg font-semibold capitalize rounded-3xl">
+                    <a href="#0" class="">Submit a Request</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--============= Header Section Ends Here =============-->
+    <!--============= Banner Section Starts Here =============-->
+    <section class="py-40 md:md:py-48 lg:py-60 px-4 md:px-6 lg:px-20 bg-center bg-no-repeat bg-cover" style="background-image: url('./assets/images/banner/banner-1.jpg');">
+        <div class="container mx-auto">
+            <div class="text-white">
+                <h1 class="6xl mb-8 md:mb-5 text-4xl md:text-6xl font-bold">How Can We Help You?</h1>
+                <p class="text-xl md:text-2xl">Have questions? Search through our Help Center.</p>
+            </div>
+        </div>
+    </section>
+    <!--============= Banner Section Ends Here =============-->
+
+
+    <!--============= How Search Section Starts Here =============-->
+    <div class="-mt-20 px-4 md:px-6 lg:px-20">
+        <div class="container">
+            <form class="relative px-10 py-4 rounded-t-md bg-violet-100 border border-slate-300">
+                <input class="text-lg bg-transparent h-14 w-full" type="text" placeholder="Start typing your search…">
+                <button class="absolute right-10 top-5 px-9 h-14 bg-violet-700 text-white rounded-3xl text-lg uppercase" type="submit"><i class="mr-2 fa-solid fa-magnifying-glass"></i> <span
+                        class="d-none d-sm-inline-block">Search</span></button>
+            </form>
+            <div class="py-8 px-16 bg-white flex">
+                <div class="basis-1/3 px-5">
+                    <div class="h-96 py-16 px-8 mb-8 rounded-2xl hover:border-white hover:shadow-lg hover:transition-all transition-all bg-white text-center border border-violet-300">
+                        <div class="w-28 mb-10 mx-auto">
+                            <img src="assets/images/how/how1.png" alt="how">
                         </div>
-                        <div class="pl-5 w-32 lg:w-40 text-xs md:text-lg font-semibold border-l border-indigo-400">
-                            <a href="#0">Help Center</a>
+                        <div class="content">
+                            <h4 class="mb-5 text-3xl font-semibold text-indigo-900 hover:text-violet-700 hover:transition"><a href="#0">How to use deskoto</a></h4>
+                            <p>Helpful information on how to use deskoto.</p>
                         </div>
                     </div>
-                    <ul id="menu" class="absolute lg:relative hidden lg:flex flex-col lg:flex-row mr-4 ml-auto w-full top-full  bg-indigo-700 lg:bg-transparent  justify-end">
-                        <li class="relative group border-t lg:border-t-0 border-indigo-400">
-                            <a href="#" class="dropDown flex lg:block justify-between lg:py-2 py-1.5 px-2.5 lg:px-5 font-medium text-lg capitalize focus:bg-white focus:text-indigo-700">Home <i class="fa-solid fa-sort-down"></i></a>
-                            <ul class="submenu absolute hidden w-full z-10 px-3.5 lg:px-0 lg:w-52 bg-indigo-700 shadow-lg h-0 group-hover:h-max group-hover:block  group-hover:transition-all group-hover:duration-1000 group-hover:ease-in-out">
-                                <li>
-                                    <a class="flex py-2 px-4 text-base w-full text-white border-t border-indigo-400 capitalize text-base hover:text-indigo-700 hover:bg-white hover:pl-5 hover:transition-all hover:duration-700" href="index.html">Home One</a>
-                                </li>
-                                <li>
-                                    <a class="flex py-2 px-4 text-base w-full text-white border-t border-indigo-400 capitalize text-base hover:text-indigo-700 hover:bg-white hover:pl-5 hover:transition-all hover:duration-700" href="index-2.html">Home Two</a>
-                                </li>
-                                <li>
-                                    <a class="flex py-2 px-4 text-base w-full text-white border-t border-indigo-400 capitalize text-base hover:text-indigo-700 hover:bg-white hover:pl-5 hover:transition-all hover:duration-700" href="index-3.html">Home Three</a>
-                                </li>
-                                <li>
-                                    <a class="flex py-2 px-4 text-base w-full text-white border-t border-indigo-400 capitalize text-base hover:text-indigo-700 hover:bg-white hover:pl-5 hover:transition-all hover:duration-700" href="index-4.html">Home Four</a>
-                                </li>
-                                <li>
-                                    <a class="flex py-2 px-4 text-base w-full text-white border-t border-indigo-400 capitalize text-base hover:text-indigo-700 hover:bg-white hover:pl-5 hover:transition-all hover:duration-700" href="index-5.html">Home Five</a>
-                                </li>
-                                <li>
-                                    <a class="flex py-2 px-4 text-base w-full text-white border-t border-indigo-400 capitalize text-base hover:text-indigo-700 hover:bg-white hover:pl-5 hover:transition-all hover:duration-700" href="index-6.html">Home Six</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="relative group border-t lg:border-t-0 border-indigo-400">
-                            <a href="#0" class="dropDown flex lg:block justify-between lg:py-2 py-1.5 px-2.5 lg:px-5 font-medium text-lg capitalize focus:bg-white focus:text-indigo-700">Changelog <i class="fa-solid fa-sort-down"></i></a>
-                            <ul class="submenu absolute hidden w-full z-10 px-3.5 lg:px-0 lg:w-52 bg-indigo-700 shadow-lg h-0 group-hover:h-max group-hover:block  group-hover:transition-all group-hover:duration-1000 group-hover:ease-in-out">
-                                <li>
-                                    <a class="flex py-2 px-4 text-base w-full text-white border-t border-indigo-400 capitalize text-base hover:text-indigo-700 hover:bg-white hover:pl-5 hover:transition-all hover:duration-700" href="changelog.html">Changelog</a>
-                                </li>
-                                <li>
-                                    <a class="flex py-2 px-4 text-base w-full text-white border-t border-indigo-400 capitalize text-base hover:text-indigo-700 hover:bg-white hover:pl-5 hover:transition-all hover:duration-700" href="changelog-2.html">Changelog Single</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="relative group border-t lg:border-t-0 border-indigo-400">
-                            <a href="#0" class="dropDown flex lg:block justify-between lg:py-2 py-1.5 px-2.5 lg:px-5 font-medium text-lg capitalize focus:bg-white focus:text-indigo-700">Pages <i class="fa-solid fa-sort-down"></i></a>
-                            <ul class="submenu absolute hidden w-full z-10 px-3.5 lg:px-0 lg:w-52 bg-indigo-700 shadow-lg h-0 group-hover:h-max group-hover:block  group-hover:transition-all group-hover:duration-1000 group-hover:ease-in-out">
-                                <li>
-                                    <a class="flex py-2 px-4 text-base w-full text-white border-t border-indigo-400 capitalize text-base hover:text-indigo-700 hover:bg-white hover:pl-5 hover:transition-all hover:duration-700" href="about.html">About</a>
-                                </li>
-                                <li>
-                                    <a class="flex py-2 px-4 text-base w-full text-white border-t border-indigo-400 capitalize text-base hover:text-indigo-700 hover:bg-white hover:pl-5 hover:transition-all hover:duration-700" href="category-1.html">Category</a>
-                                </li>
-                                <li>
-                                    <a class="flex py-2 px-4 text-base w-full text-white border-t border-indigo-400 capitalize text-base hover:text-indigo-700 hover:bg-white hover:pl-5 hover:transition-all hover:duration-700" href="category-2.html">Category Single</a>
-                                </li>
-                                <li>
-                                    <a class="flex py-2 px-4 text-base w-full text-white border-t border-indigo-400 capitalize text-base hover:text-indigo-700 hover:bg-white hover:pl-5 hover:transition-all hover:duration-700" href="knowledge-based.html">Knowledge Based</a>
-                                </li>
-                                <li>
-                                    <a class="flex py-2 px-4 text-base w-full text-white border-t border-indigo-400 capitalize text-base hover:text-indigo-700 hover:bg-white hover:pl-5 hover:transition-all hover:duration-700" href="knowledge-based-single.html">Knowledge Based Single</a>
-                                </li>
-                                <li>
-                                    <a class="flex py-2 px-4 text-base w-full text-white border-t border-indigo-400 capitalize text-base hover:text-indigo-700 hover:bg-white hover:pl-5 hover:transition-all hover:duration-700" href="faq.html">Faqs</a>
-                                </li>
-                                <li>
-                                    <a class="flex py-2 px-4 text-base w-full text-white border-t border-indigo-400 capitalize text-base hover:text-indigo-700 hover:bg-white hover:pl-5 hover:transition-all hover:duration-700" href="contact.html">Contact</a>
-                                </li>
-                                <li>
-                                    <a class="flex py-2 px-4 text-base w-full text-white border-t border-indigo-400 capitalize text-base hover:text-indigo-700 hover:bg-white hover:pl-5 hover:transition-all hover:duration-700" href="404.html">404 Error</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li class="border-t block md:hidden py-4 text-center border-t lg:border-t-0 border-indigo-400">
-                            <a href="#0" class=" py-2.5 px-12 bg-white text-indigo-700 text-lg font-semibold capitalize rounded-3xl">Submit a Request</a>
-                        </li>
-                    </ul>
-                    <div id="toggle-btn" class="flex lg:hidden text-2xl ml-auto mr-8">
-                        <i class="fa-solid fa-bars"></i>
+                </div>
+                <div class="basis-1/3 px-5">
+                    <div class="h-96 py-16 px-8 mb-8 rounded-2xl hover:border-white hover:shadow-lg hover:transition-all transition-all bg-white text-center border border-violet-300">
+                        <div class="w-28 mb-10 mx-auto">
+                            <img src="assets/images/how/how2.png" alt="how">
+                        </div>
+                        <div class="content">
+                            <h4 class="mb-5 text-3xl font-semibold text-indigo-900 hover:text-violet-700 hover:transition"><a href="#0">Community Forums</a></h4>
+                            <p>Ask questions and share your ideas!</p>
+                        </div>
                     </div>
-                    <div class="hidden md:flex lg:w-96 ml-8 py-2.5 lg:py-5 px-7 lg:px-9 bg-white text-indigo-700 text-lg font-semibold capitalize rounded-3xl">
-                        <a href="#0" class="">Submit a Request</a>
+                </div>
+                <div class="basis-1/3 px-5">
+                    <div class="h-96 py-16 px-8 mb-8 rounded-2xl hover:border-white hover:shadow-lg hover:transition-all transition-all bg-white text-center border border-violet-300">
+                        <div class="w-28 mb-10 mx-auto">
+                            <img src="assets/images/how/how3.png" alt="how">
+                        </div>
+                        <div class="content">
+                            <h4 class="mb-5 text-3xl font-semibold text-indigo-900 hover:text-violet-700 hover:transition"><a href="#0">Ticket System</a></h4>
+                            <p>Built to help you solve issues faster than ever.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-        </header>
-        <!--============= Header Section Ends Here =============-->
-        <!--============= Banner Section Starts Here =============-->
-        <section class="pt-24 pb-40 md:pt-40 md:pb-48 lg:py-60 px-4 md:px-6 lg:px-20 bg-center bg-no-repeat bg-cover" style="background-image: url('./assets/images/banner/banner-1.jpg');">
-            <div class="container mx-auto">
-                <div class="text-white">
-                    <h1 class="6xl mb-8 md:mb-5 text-4xl md:text-6xl font-bold">How Can We Help You?</h1>
-                    <p class="text-xl md:text-2xl">Have questions? Search through our Help Center.</p>
-                </div>
-            </div>
-        </section>
-        <!--============= Banner Section Ends Here =============-->
+        </div>
+    </div>
+    <!--============= How Search Section Ends Here =============-->
 
     <script src="assets/js/main.js"></script>
 </body>

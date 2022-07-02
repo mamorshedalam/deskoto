@@ -19,16 +19,14 @@ dropDown.forEach(item => {
 })
 
 // sticky navbar
-window.onscroll = myFunction;
-
-function myFunction() {
+window.onscroll = function () {
      const navbar = document.querySelector("header");
 
      if (window.scrollY > 100) {
           navbar.classList.remove("bg-transparent");
-          navbar.classList.add("bg-indigo-700");
+          navbar.classList.add("bg-violet-700");
      } else {
-          navbar.classList.remove("bg-indigo-700");
+          navbar.classList.remove("bg-violet-700");
           navbar.classList.add("bg-transparent");
      }
 }  
