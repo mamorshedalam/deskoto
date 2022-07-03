@@ -24,9 +24,9 @@ window.onscroll = function () {
 
      if (window.scrollY > 100) {
           navbar.classList.remove("bg-transparent");
-          navbar.classList.add("bg-violet-700");
+          navbar.classList.add("bg-indigo-600");
      } else {
-          navbar.classList.remove("bg-violet-700");
+          navbar.classList.remove("bg-indigo-600");
           navbar.classList.add("bg-transparent");
      }
 }  
