@@ -25,13 +25,16 @@
 </style>
 
 <body class="text-indigo-900 text-base md:text-xl bg-blue-100">
+    <!--============= ScrollToTop Section Starts Here =============-->
+    <button id="scroll" class="fixed hidden bottom-5 right-5 z-50 text-xl w-9 h-9 rounded-md bg-blue-300 text-white"><i class="fa-solid fa-angle-up"></i></button>
+    <!--============= ScrollToTop Section Ends Here =============-->
 
 
     <!--============= Header Section Starts Here =============-->
     <header class="header-section text-white bg-transparent fixed w-full z-50">
         <div class="w-full sm:w-[540px] md:w-[720px] lg:w-[960px] xl:w-[1140px] px-4 mx-auto">
             <div class="flex justify-between w-full items-center relative">
-                <div class="flex py-4 md:py-8 items-center">
+                <div class="flex py-4 md:py-6 items-center">
                     <div class="w-36 md:w-44 pr-5">
                         <a href="index.html">
                             <img src="assets/images/logo/logo.png" alt="logo">
@@ -128,15 +131,16 @@
                         </ul>
                     </li>
                     <li class="border-t block md:hidden py-4 text-center border-t lg:border-t-0 border-violet-400">
-                        <a href="#0" class="py-2.5 px-7 lg:py-3 lg:px-10 rounded-3xl text-lg capitalize font-semibold bg-white text-indigo-900 hover:text-violet-700 hover:transition">Submit a
+                        <a href="#0" class="py-4 px-7 lg:py-6 lg:px-10 rounded-full text-lg capitalize font-semibold bg-white text-indigo-900 hover:text-violet-700 hover:transition">Submit a
                             Request</a>
                     </li>
                 </ul>
-                <div id="toggle-btn" class="flex lg:hidden md:pr-0text-2xl md:text-3xl ml-auto md:mr-8">
-                    <i class="fa-solid fa-bars"></i>
+                <div id="toggle-btn" class="flex lg:hidden md:pr-0 text-2xl md:text-3xl ml-auto md:mr-8">
+                    <span id="open" class="block"><i class="fa-solid fa-bars"></i></span>
+                    <span id="close" class="hidden"> <i class="fa-solid fa-xmark"></i></span>
                 </div>
                 <div class="hidden md:block">
-                    <a href="#0" class="py-2.5 px-7 lg:py-3 lg:px-10 rounded-3xl text-lg capitalize font-semibold bg-white text-indigo-900 hover:text-violet-700 hover:transition">Submit a Request</a>
+                    <a href="#0" class="py-4 px-7 lg:py-6 lg:px-10 rounded-full text-lg capitalize font-semibold bg-white text-indigo-900 hover:text-violet-700 hover:transition">Submit a Request</a>
                 </div>
             </div>
         </div>
@@ -366,7 +370,7 @@
                      <h2 class="mb-3.5 md:mb-2 text-3xl lg:text-5xl font-semibold">Still Have Questions?</h2>
                      <p class="mb-6">Our customer care team is here for you!</p>
                      <a href="#0"
-                         class="py-2.5 px-7 lg:py-3 lg:px-10 rounded-3xl text-lg capitalize font-semibold border border-indigo-600 bg-indigo-600 hover:bg-white text-white hover:text-indigo-600 hover:transition">Contact
+                         class="py-2.5 px-7 lg:py-3 lg:px-10 rounded-full text-lg capitalize font-semibold border border-indigo-600 bg-indigo-600 hover:bg-white text-white hover:text-indigo-600 hover:transition">Contact
                          Us</a>
                  </div>
              </div>
@@ -442,9 +446,9 @@
                  <div class="footer-widget widget-newsletter">
                      <h5 class="mb-5 text-2xl font-semibold">Newsletter</h5>
                      <form class="flex flex-wrap">
-                         <input class="w-full mb-8 px-8 py-3 text-lg placeholder:text-white text-white border border-white rounded-3xl bg-violet-700" type="text" placeholder="Enter Your Email"
+                         <input class="w-full mb-8 px-8 py-5 text-lg placeholder:text-white text-white border border-white rounded-full bg-violet-700" type="text" placeholder="Enter Your Email"
                              name="email">
-                         <button class="py-2.5 px-7 lg:py-3 lg:px-10 bg-white text-indigo-900 text-lg font-semibold capitalize rounded-3xl" type="submit">Subscribe</button>
+                         <button class="py-4 px-7 lg:py-5 lg:px-10 bg-white text-indigo-900 text-lg font-semibold capitalize rounded-full" type="submit">Subscribe</button>
                      </form>
                  </div>
              </div>
