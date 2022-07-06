@@ -21,4 +21,4 @@ cd deskoto
 
 ```bash
 double click index.html
-``
+```
