@@ -30,3 +30,6 @@ double click index.html
 - [x] JavaScript (ES6)
 - [x] Tailwind CSS (v3.1.4)
 - [x] HTML / CSS
+
+
+Live Link : https://mamorshedalam.github.io/deskoto/
