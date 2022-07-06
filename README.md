@@ -1,7 +1,8 @@
 # Deskoto
 ### This website is made using Tailwind css.
 ---
-This website is completely made with Tailwind CSS CDN (v3.1.3) without any single line of CSS code.
+This website is completely made with Tailwind CSS CDN (v3.1.3) without any single line of CSS code. And all animation & DOM operations are done with vanilla JavaScript.
+
 
 ### Installation
 
@@ -22,3 +23,10 @@ cd deskoto
 ```bash
 double click index.html
 ```
+
+
+### Technology
+
+- [x] JavaScript (ES6)
+- [x] Tailwind CSS (v3.1.4)
+- [x] HTML / CSS
