@@ -1,5 +1,5 @@
 # Deskoto
-### Website designed using Tailwind css.
+### Website designed by using Tailwind css.
 ---
 This website is completely made with Tailwind CSS CDN (v3.1.3) without any single line of CSS code. And all animation & DOM operations are done with vanilla JavaScript.
 
